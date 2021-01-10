@@ -1,0 +1,140 @@
+body div.cardBody {
+  background: url("https://kawaii.kawaii.at/img/blue-Tub-Time-water-bubble-fabric-Robert-Kaufman-185650-1.JPG")
+    no-repeat;
+  background-size: cover;
+  border: 15px solid #e7c300;
+  border-radius: 3%;
+  height: 448px;
+  margin: 8% auto auto auto;
+  width: 320px;
+}
+body div.cardBody div.header {
+  margin-bottom: 2px;
+}
+body div.cardBody div.header p.basic {
+  font-size: 0.5rem;
+  font-weight: bold;
+  margin: 1% 0 0 7%;
+}
+body div.cardBody div.header div.nameAndHealth {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 7%;
+}
+body div.cardBody div.header div.nameAndHealth p {
+  margin: 0;
+}
+body div.cardBody div.header div.nameAndHealth p.name {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+body div.cardBody div.header div.nameAndHealth div.floatRight {
+  align-items: center;
+  display: flex;
+}
+body div.cardBody div.header div.nameAndHealth div.floatRight p.health {
+  color: red;
+  font-size: 1.25rem;
+  margin-right: 15px;
+}
+body div.cardBody div.header div.nameAndHealth div.floatRight img {
+  margin: 0;
+  width: 15px;
+}
+body div.cardBody div.squirtle {
+  text-align: center;
+}
+body div.cardBody div.squirtle img {
+  border: 10px solid #e7c300;
+  box-shadow: 5px 5px 10px 2px black;
+  width: 80%;
+}
+body div.cardBody div.stats {
+  background-color: #e7c300;
+  font-size: 0.65rem;
+  white-space: nowrap;
+  margin: -3px auto auto auto;
+  width: 75%;
+  text-align: center;
+}
+body div.cardBody div.stats p {
+  font-style: italic;
+}
+body div.cardBody div.attacks hr {
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 95%;
+}
+body div.cardBody div.attacks div.specificAttack {
+  align-items: center;
+  display: inline-grid;
+  grid-template-columns: 1fr 5fr 1fr;
+}
+body div.cardBody div.attacks div.specificAttack div.energy {
+  text-align: center;
+}
+body div.cardBody div.attacks div.specificAttack div.energy img {
+  width: 15px;
+}
+body div.cardBody div.attacks div.specificAttack div.attackDescription h2 {
+  display: inline;
+  font-family: "Francois One", sans-serif;
+  font-size: 1rem;
+  float: left;
+  margin: 0 5px 0 0;
+}
+body div.cardBody div.attacks div.specificAttack div.attackDescription p {
+  font-size: 0.75rem;
+  margin: 0;
+}
+body
+  div.cardBody
+  div.attacks
+  div.specificAttack
+  div.attackDescription
+  p
+  span.attackName {
+  font-family: "Francois One", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+body div.cardBody div.attacks div.specificAttack div.power {
+  font-size: 1.5rem;
+  text-align: center;
+}
+body div.cardBody div.attributes {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  width: 100%;
+}
+body div.cardBody div.attributes p {
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin: 0;
+}
+body div.cardBody div.attributes img {
+  width: 15px;
+}
+body div.cardBody div.description {
+  border: 2px solid #e7c300;
+  font-size: 0.5rem;
+  margin: auto;
+  padding: 0 5px;
+  width: 90%;
+}
+body div.cardBody div.description p {
+  font-style: italic;
+  font-weight: bold;
+  margin: 0;
+}
+body div.cardBody div.footer {
+  font-size: 8px;
+  padding: 0 1px;
+  text-align: center;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
